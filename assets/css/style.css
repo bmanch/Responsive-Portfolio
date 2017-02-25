@@ -9,10 +9,7 @@ html {
 
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url('../images/new_year_background/new_year_background.png'); /* I can't figure out why
-	this font wouldn't affect all the elements within my "bodyComponents" div. I had to apply the font again under
-	the grayText class in order to make all the body text be the correct font. Yet applying this font here does
-	affect my header and footer. */
+	background-image: url('../images/new_year_background/new_year_background.png');
 	min-height: 100%;
 	position: relative;
 }
@@ -173,10 +170,7 @@ a:hover {
 }
 
 #stack {
-	margin-left: 0; /* I tried this on this and the above id because there's an automatic left margin on these
-	icons. But this doesn't seem to work, so I just kept shrinking my margin-right in the two ids above to get
-	them to align with the underline above the icons. How would I fix this in an efficient manner (i.e., not
-	eyeballing)? */
+	margin-left: 0;
 }
 
 footer {
@@ -192,9 +186,7 @@ footer {
 	border-width: 9px 0 0 0;
 	position: absolute;
 	bottom: 0;
-} /*I tried all sorts of different things to get the footer to stick to the bottom and also not block text if the view port is small.
-But I wasn't able to figure that out. At least it is sticking to the bottom! I'd like to figure out how to also make it not block other
-material when the viewport is smaller.*/
+}
 
 /* CSS for portfolio.html*/
 
@@ -266,6 +258,9 @@ input {
 	width: 100%;
 	padding: 5px;
 	margin: 5px 0 15px 0;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
 }
 
 textarea {
@@ -274,6 +269,7 @@ textarea {
 	margin: 5px 0 5px 0;
 	border-style: solid;
 	border-color: #cccccc;
+	border-width: 1px;
 }
 
 button {
@@ -398,7 +394,7 @@ thought I'd stick with the challenge of working with as much original code as po
 		border-style: solid;
 		border-color: #cccccc;
 		border-width: 0 1px 0 0;
-		padding: 0 32px 0 32px; /*I had a hard time making these links (about, portfolio, and contact)
+		padding: 0 37px 0 37px; /*I had a hard time making these links (about, portfolio, and contact)
 		responsive once the screen goes smaller and smaller. I wanted to set percantages on their
 		width so that they'd adjust, but I couldn't make it work. So I just hard coded these paddings
 		to make them more or less centered at a width of 640px. I had to give slightly different paddings
@@ -412,12 +408,12 @@ thought I'd stick with the challenge of working with as much original code as po
 		border-style: solid;
 		border-color: #cccccc;
 		border-width: 0 1px 0 0;
-		padding: 0 22.5px 0 22.5px;
+		padding: 0 27.5px 0 27.5px;
 		margin-right: 0;
 	}	
 
 	#contact {
-		padding: 0 24.5px 0 24.5px;
+		padding: 0 29.5px 0 29.5px;
 		width: 190px;
 	}
 
