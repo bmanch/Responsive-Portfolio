@@ -1,0 +1,446 @@
+/* CSS for multiple pages and for index.html */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url('../images/new_year_background/new_year_background.png'); /* I can't figure out why
+	this font wouldn't affect all the elements within my "bodyComponents" div. I had to apply the font again under
+	the grayText class in order to make all the body text be the correct font. Yet applying this font here does
+	affect my header and footer. */
+	min-height: 100%;
+	position: relative;
+}
+
+header {
+	background-color: #ffffff;
+	height: 93px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 0 2px 0;
+	margin-bottom: 40px;
+}
+
+#headerContent {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#nameBlock {
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	float: left;
+	padding: 27.5px;
+	font-size: 35px;
+	margin-top: 1px;
+}
+
+#navigation1 {
+	float: right;
+	padding: 36px 0 36px 0;
+	color: #777777;
+	font-size: 18px;
+	margin-top: 1px;
+	color: #cccccc;
+}
+
+a {
+	color: #777777;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+#about {
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 1px 0 0;
+	padding-right: 15px;
+	margin-right:10px;
+}
+
+#portfolio {
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 1px 0 0;
+	padding-right: 15px;
+	margin-right: 10px;
+}
+
+.heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.grayText {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+#bodyComponents {
+	clear: both;
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+#aboutMe {
+	width: 650px;
+	overflow: auto;
+	float: left;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	background-color: #ffffff;
+	padding: 27.5px;
+	margin-bottom: 150px;
+}
+
+#tealText1 {
+	color: #4aaaa5;
+	font-size: 30px;
+	padding: 0 0 27.5px 0;
+	width: 100%;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 0 2px 0;
+	margin-bottom: 20px;
+}
+
+#profilePic {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-top: 8px;
+	margin-right: 27.5px;
+}
+
+#connectWithMe {
+	float: right;
+	overflow: auto;
+	padding: 27.5px;
+	width: 270px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	background-color: #ffffff;
+	margin-bottom: 150px;
+}
+
+#tealText2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	padding-bottom: 20px;
+	width: 100%;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 0 1px 0;
+}
+
+.icon {
+	margin-top: 20px;
+	height: 62px;
+	width: 62px;
+}
+
+#git {
+	margin-right: 9px;
+}
+
+#linked {
+	margin-right: 9px;
+	margin-left: 0;
+}
+
+#stack {
+	margin-left: 0; /* I tried this on this and the above id because there's an automatic left margin on these
+	icons. But this doesn't seem to work, so I just kept shrinking my margin-right in the two ids above to get
+	them to align with the underline above the icons. How would I fix this in an efficient manner (i.e., not
+	eyeballing)? */
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	width: 100%;
+	padding: 36px;
+	text-align: center;
+	font-size: 12px;
+	color: #cccccc;
+	border-style: solid;
+	border-color: #4aaaa5;
+	border-width: 9px 0 0 0;
+	position: absolute;
+	bottom: 0;
+} /*I tried all sorts of different things to get the footer to stick to the bottom and also not block text if the view port is small.
+But I wasn't able to figure that out. At least it is sticking to the bottom! I'd like to figure out how to also make it not block other
+material when the viewport is smaller.*/
+
+/* CSS for portfolio.html*/
+
+.portfolioImage {
+	width: 270px;
+	height: 180px;
+}
+
+#image1 {
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin-bottom: 54px;
+	position: relative;
+}
+
+#image2 {
+	float: right;
+	width: 270px;
+	height: 180px;
+	margin-bottom: 54px;
+	position: relative;
+}
+
+#image3 {
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin-bottom: 54px;
+	position: relative;
+}
+
+#image4 {
+	float: right;
+	width: 270px;
+	height: 180px;
+	margin-bottom: 54px;
+	position: relative;
+}
+
+#image5 {
+	float: left;
+	width: 270px;
+	height: 180px;
+	position: relative;
+}
+
+.captions {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	position: absolute;
+	bottom: 7px;
+	width: 270px;
+}
+
+/*CSS for contact.html*/
+
+form {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	margin: 5px 0 5px 0;
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+button {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	margin-top: 15px;
+}
+
+/*Media queries*/
+/*I tried to do as much of the media query work as possible without modifying my original css code.
+I did change a few things above to make the process go more smoothly for the media queries. I do
+know that if I modified more above, the media queries code would be even simpler (probably), but I
+thought I'd stick with the challenge of working with as much original code as possible from above.*/
+
+@media screen and (max-width: 980px) {
+	#headerContent {
+		width: 650px;
+	}
+
+	#bodyComponents {
+		width: 650px;
+	}
+
+	#aboutMe {
+		width: 325px;
+	}
+
+	#tealText1 {
+		width: 100%;
+	}
+
+	#profilePic {
+		float: none;
+		margin: 8px 35px 10px 35px; /*I added these margins so that the picture would center in the
+		aboutMe container. My picture here is not as wide as the cat photo in the model screenshot.
+		Instead of changing the size of my pic and instead of having it sit left at this screen size,
+		I decided to center it. */
+	}
+
+	#image1, #image2, #image3, #image4, #image5 {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#headerContent {
+		width: 630px; /*I set all these to 630 so that they wouldn't get cut off before the media
+		query changes at 640px*/
+	}
+
+	#bodyComponents {
+		width: 630px;
+
+	}#aboutMe {
+		width: 630px;
+		margin-bottom: 40px;
+	}
+
+	#profilePic {
+		float: left;
+		margin: 8px 27.5px 0 0;
+	}
+
+	#image1, #image3, #image5 {
+		float: left;
+	}
+
+	#image2, #image4 {
+		float: right;
+	}
+
+	#connectWithMe {
+		clear: both;
+		float: left;
+		width: 630px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		position: static;
+		background-color: #ffffff;
+		height: none;
+		border: none;
+	}
+
+	#nameBlock {
+		width: 100%;
+		margin-top: 0;
+		float: none;
+	}
+
+	#headerContent {
+		width: 100%;
+	}
+
+	#navigation1 {
+		float: none;
+		padding: 18px 0 18px 0;
+		color: #777777;
+		background-color: #ffffff;
+		font-size: 18px;
+		color: #cccccc;
+		width: 100%;
+		text-align: center;
+		border-style: solid;
+		border-color: #cccccc;
+		border-width: 0 0 2px 0;
+	}
+	
+	#bodyComponents {
+		width: 325px;
+	}
+
+	#about {
+		border-style: solid;
+		border-color: #cccccc;
+		border-width: 0 1px 0 0;
+		padding: 0 72px 0 72px; /*I had a hard time making these links (about, portfolio, and contact)
+		responsive once the screen goes smaller than 566px wide. I wanted to set percantages on their
+		width so that they'd adjust, but I couldn't make it work. So I just hard coded these paddings
+		to make them more or less centered at a width of 640px. I had to give slightly different paddings
+		on the left and right for each because the words themselves were of different lengths. I just did
+		the math based on the words's lengths to figure out how much padding to give. Unfortunately, because
+		of this, the links will start to collapse and fall out of line once the screen gets smaller than 581px*/
+		margin-right: 0;
+	}
+
+	#portfolio {
+		border-style: solid;
+		border-color: #cccccc;
+		border-width: 0 1px 0 0;
+		padding: 0 62.5px 0 62.5px;
+		margin-right: 0;
+	}	
+
+	#contact {
+		padding: 0 65.5px 0 65.5px;
+		width: 190px;
+	}
+
+	#aboutMe {
+		clear: both;
+		margin-top: 40px;
+		width: 325px;
+	}
+
+	#profilePic {
+		float: none;
+		margin: 8px 35px 10px 35px;
+	}
+
+	#image1, #image2, #image3, #image4, #image5 {
+		float: none;
+	}
+
+	#connectWithMe {
+		clear: both;
+		float: left;
+		width: 325px;
+	}
+}
+
+

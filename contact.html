@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brian Manchester | Full Stack Developer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<header>
+		<div id="headerContent">
+			<a href="index.html"><h1 class="heading" id="nameBlock">Brian Manchester</h1></a>
+				<nav id="navigation1">
+					<a id="about" href="index.html">About</a>
+					<a id="portfolio" href="portfolio.html">Portfolio</a>
+					<a id="contact" href="contact.html">Contact</a>
+				</nav>
+		</div>
+	</header>
+	<div id="bodyComponents">
+		<section id="aboutMe">
+			<h2 class="heading" id="tealText1">Contact</h2>
+				<form action="mailto:brian.l.manchester@gmail.com" method="post" enctype="text/plain">
+				Name<br>
+				<input type="text" name="name" placeholder="John Smith"><br>
+				Email<br>
+				<input type="text" name="mail" placeholder="example@gmail.com"><br>
+				Message<br>
+				<textarea name="message"></textarea><br>
+				<button type="submit">Submit</button>
+				</form>
+		</section>
+
+		<aside id="connectWithMe">
+			<h3 class="heading" id="tealText2">Connect with Me</h3> <!--Can you have more than one class within an html tag? I orginally had a class called "tealText" on this tag and the About Me heading. But my css didn't work with that. So I changed each to their own id.-->
+				<nav>
+					<a href="https://github.com/bmanch" target="_blank"><img class="icon" id="git" src="assets/images/github_icon.png" alt="Github Icon"></a>
+					<a href="https://linkedin.com/in/brian-l-manchester" target="_blank"><img class="icon" id="linked" src="assets/images/linkedin_icon.png" alt="LinkedIn Icon"></a>
+					<a href="http://stackexchange.com/users/10038162/brian-manchester" target="_blank"><img class="icon" id="stack" src="assets/images/stackoverflow_icon.png" alt="stackoverflow Icon"></a>
+				</nav>
+		</aside>
+	</div>
+
+	<footer>
+		&copy; Copyright 2017 Brian Manchester
+	</footer>
+
+</body>
+</html>
