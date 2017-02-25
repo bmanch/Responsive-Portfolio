@@ -398,7 +398,7 @@ thought I'd stick with the challenge of working with as much original code as po
 		border-style: solid;
 		border-color: #cccccc;
 		border-width: 0 1px 0 0;
-		padding: 0 42px 0 42px; /*I had a hard time making these links (about, portfolio, and contact)
+		padding: 0 32px 0 32px; /*I had a hard time making these links (about, portfolio, and contact)
 		responsive once the screen goes smaller and smaller. I wanted to set percantages on their
 		width so that they'd adjust, but I couldn't make it work. So I just hard coded these paddings
 		to make them more or less centered at a width of 640px. I had to give slightly different paddings
@@ -412,12 +412,12 @@ thought I'd stick with the challenge of working with as much original code as po
 		border-style: solid;
 		border-color: #cccccc;
 		border-width: 0 1px 0 0;
-		padding: 0 32.5px 0 32.5px;
+		padding: 0 22.5px 0 22.5px;
 		margin-right: 0;
 	}	
 
 	#contact {
-		padding: 0 34.5px 0 34.5px;
+		padding: 0 24.5px 0 24.5px;
 		width: 190px;
 	}
 
