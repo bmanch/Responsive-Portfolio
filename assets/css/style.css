@@ -398,13 +398,13 @@ thought I'd stick with the challenge of working with as much original code as po
 		border-style: solid;
 		border-color: #cccccc;
 		border-width: 0 1px 0 0;
-		padding: 0 72px 0 72px; /*I had a hard time making these links (about, portfolio, and contact)
+		padding: 0 62px 0 62px; /*I had a hard time making these links (about, portfolio, and contact)
 		responsive once the screen goes smaller than 566px wide. I wanted to set percantages on their
 		width so that they'd adjust, but I couldn't make it work. So I just hard coded these paddings
 		to make them more or less centered at a width of 640px. I had to give slightly different paddings
 		on the left and right for each because the words themselves were of different lengths. I just did
 		the math based on the words's lengths to figure out how much padding to give. Unfortunately, because
-		of this, the links will start to collapse and fall out of line once the screen gets smaller than 581px*/
+		of this, the links will start to collapse and fall out of line once the screen gets too small for them.*/
 		margin-right: 0;
 	}
 
@@ -412,12 +412,12 @@ thought I'd stick with the challenge of working with as much original code as po
 		border-style: solid;
 		border-color: #cccccc;
 		border-width: 0 1px 0 0;
-		padding: 0 62.5px 0 62.5px;
+		padding: 0 52.5px 0 52.5px;
 		margin-right: 0;
 	}	
 
 	#contact {
-		padding: 0 65.5px 0 65.5px;
+		padding: 0 55.5px 0 55.5px;
 		width: 190px;
 	}
 
